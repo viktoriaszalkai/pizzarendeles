@@ -486,7 +486,7 @@ public class pizzarendeles extends javax.swing.JFrame {
     }//GEN-LAST:event_chbVeganItemStateChanged
 
     private void tgbtnRendelesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tgbtnRendelesActionPerformed
-       JOptionPane.showMessageDialog(rootPane, "Tesztverzió!", "Figyelmeztetés", 2);
+       JOptionPane.showMessageDialog(rootPane, "A pizza ára 1500 forint", "végösszeg", 1);
     }//GEN-LAST:event_tgbtnRendelesActionPerformed
 
     private void csere() {
