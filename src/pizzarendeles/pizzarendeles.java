@@ -347,6 +347,11 @@ public class pizzarendeles extends javax.swing.JFrame {
                 tgbtnRendelesMouseClicked(evt);
             }
         });
+        tgbtnRendeles.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tgbtnRendelesActionPerformed(evt);
+            }
+        });
 
         buttonGroup2.add(tgbtnMegse);
         tgbtnMegse.setText("Mégse");
@@ -446,8 +451,8 @@ public class pizzarendeles extends javax.swing.JFrame {
     }//GEN-LAST:event_tgbtnMegseMouseClicked
 
     private void tgbtnRendelesMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tgbtnRendelesMouseClicked
-    int     ikonTipus = JOptionPane.INFORMATION_MESSAGE; //
-    JOptionPane.showMessageDialog(rootPane, "Rendelését felvettük. \nAz 1-es pultnál veheti át", "RENDELÉS LEADVA", 1);
+    //int     ikonTipus = JOptionPane.INFORMATION_MESSAGE; //
+    //JOptionPane.showMessageDialog(rootPane, "Rendelését felvettük. \nAz 1-es pultnál veheti át", "RENDELÉS LEADVA", 1);
     }//GEN-LAST:event_tgbtnRendelesMouseClicked
 
     private void rbnFaItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_rbnFaItemStateChanged
@@ -479,6 +484,10 @@ public class pizzarendeles extends javax.swing.JFrame {
         chbTonhal.setEnabled(true);
     }
     }//GEN-LAST:event_chbVeganItemStateChanged
+
+    private void tgbtnRendelesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tgbtnRendelesActionPerformed
+       JOptionPane.showMessageDialog(rootPane, "Tesztverzió!");
+    }//GEN-LAST:event_tgbtnRendelesActionPerformed
 
     private void csere() {
         String s = txtfSemmi.getText();
